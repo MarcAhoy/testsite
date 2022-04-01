@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 10px 0px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  margin: 0px 3px;
+  border: 3px solid black;
+  background-color: seagreen;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  padding: 10px 0px;
+  text-decoration: none;
+  width:97px;
+  transition-duration: 0.2s;
+}
+
+li a:hover:not(.active) {
+  background-color: #58a179;
+  color: white;
+}
+
+a:hover.active {
+  color: white;
+}
+
+.active {
+  background-color: seagreen;
+  border: 3px solid white;
+  
+}
+
+body {
+  background-color: rgb(87, 87, 87);
+}
+
+.image {
+  display: block;
+  margin: 0px 5px;
+  width: 80px;
+  position: relative;
+  top: 0px;
+  float: left;
+}
+
+</style>
+
+<title>Tutorials</title>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+</head>
+<body>
+
+<ul>
+  <a href="index.html"><img class="image" src="images/BPE Logo PNG.png" alt="BPE Logo"></a>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="tutorials.html">Tutorials</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="index.html">Home</a></li>
+</ul>
+
+</body>
+</html>
